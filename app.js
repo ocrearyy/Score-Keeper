@@ -1,3 +1,51 @@
+const div = document.querySelector('.section');
+div.innerHTML = `<div class="container">
+<div class="columns">
+    <div class="column is-half is-offset-one-quarter">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-2by1">
+                    <img src="images/checkers.jpg" alt="" srcset="">
+                </figure>
+            </div>
+            <header class="card-header">
+              <p class="card-header-title">
+                Points Score Keeper
+              </p>
+              
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <h1 class = title is-one><span id="p1Display"> 0</span> to <span id="p2Display"> 0</span></h1>
+                <p class="subtitle">Use the button below to keep score</p>
+
+                <label for="playto" class="label is-large is-inline">Playing To</label>
+                <div class="select is-rounded">
+                    <select name="" id="playto">
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                </div>
+              </div>
+            </div>
+            
+            <footer class="card-footer">
+                <button id="p1Button" class="is-primary button card-footer-item is-large">+1 Player One</button>
+                <button id="p2Button" class="is-info button card-footer-item is-large">+1 Player Two</button>
+                <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
+            </footer>
+
+          </div>
+    </div>
+</div>`
+
 const p1Button = document.querySelector('#p1Button');
 const p2Button = document.querySelector('#p2Button');
 const resetButton = document.querySelector('#reset')
