@@ -5,7 +5,7 @@ div.innerHTML = `<div class="container">
         <div class="card">
             <div class="card-image">
                 <figure class="image is-2by1">
-                    <img src="images/checkers.jpg" alt="" srcset="">
+                    <img src="images/scores.jpg" alt="" srcset="">
                 </figure>
             </div>
             <header class="card-header">
