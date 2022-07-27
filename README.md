@@ -5,7 +5,8 @@ Note Best:
 The number of points to reach to a win can be added as well. For example the first player to reach 3 points will win.
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/40554384/151559402-a86809c2-d78c-432b-985a-112e46807a0c.png)
+![scre](https://user-images.githubusercontent.com/40554384/181339890-19cd345a-26eb-4e1e-8b52-089174594f06.JPG)
+
 
 
 ## 🚀 About Me
